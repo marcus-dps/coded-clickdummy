@@ -3,7 +3,31 @@ import Button from "./Button";
 import Screen from "./Screen";
 import "./styles.css";
 
+/* Step 1
+<---- UPLOAD YOU OWN IMAGE FILES INTO /public
+
+You can use .png, .svg, .jpg
+Try to make all your images roughly the same width, 
+i.e. 320 pixels wide for a mobile screen
+or 1200 pixels wide for a desktop screen
+*/
+
 export default function App() {
+  /* Step 2
+
+  For each Screen in your click dummy, create a new
+  - Route
+    - Screen
+
+  If you want to make the screens interactive, place a Button inside the screen
+  – Route
+    – Screen
+      – Button
+      – Button
+
+  The Button "to" parameter links to the Route "path" parameter.
+  The Screen "image" parameter should be the file name in the / folder (root)
+  */
   return (
     <div className="App">
       <Routes>
