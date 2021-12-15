@@ -13,6 +13,8 @@ export default function Button({ x, y, w, h, to }) {
         width: `${w}px`,
         height: `${h}px`
       }}
-    />
+    >
+      {debug ? to : ""}
+    </Link>
   );
 }
